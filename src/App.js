@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar/>
       <Routes>
-          <Route path='/' element={<Home/>}></Route>
+          <Route path='/Employee_Front_end' element={<Home/>}></Route>
           <Route path='/home' element={<Home/>}></Route>
           <Route path='/employee_form' element={<Employee/>}></Route>
         

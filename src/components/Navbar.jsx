@@ -12,7 +12,7 @@ const Navbar = () => {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Employee
         </Typography>
-        <Button ><Link style={{color:'whitesmoke', textDecoration:"none"}} to ={'/'}> Home</Link></Button>
+        <Button ><Link style={{color:'whitesmoke', textDecoration:"none"}} to ={'/home'}> Home</Link></Button>
         
         <Button ><Link style={{color:'whitesmoke' , textDecoration:"none"}} to ={'/employee_form'}> Employee Form</Link></Button>
       </Toolbar>
